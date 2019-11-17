@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Name Guessing Game</title>
+    <link rel="stylesheet" href="master.css">
+</head>
+<body>
+    <h1>Name Guessing Game</h1>
+    <div id="game" class="game_wrapper">
+
+    </div>
+
+    <div id="debugMenu" class="off">
+        <h2>Debug Menu</h2>
+        <select name="" id="debugVoiceList"></select><br />
+        <label for="rate">Rate</label><input type="range" min="0.5" max="2" value="1" step="0.1" id="rate">
+        <label for="pitch">Pitch</label><input type="range" min="0" max="2" value="1" step="0.1" id="pitch">
+        <br />
+        <button id="testVoice">Test Voice</button>
+    </div>
+
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

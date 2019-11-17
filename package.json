@@ -1,0 +1,13 @@
+{
+  "name": "NameGuessingGame",
+  "version": "1.0.0",
+  "description": "A simple name guessing game where you try to outlast the other players guessing names by guessing your opponents name before they guess yours.",
+  "main": "index.html",
+  "repository": "https://github.com/joshbyvelds/NameGuessingGame.git",
+  "author": "Josh Byvelds <joshbyvelds@users.noreply.github.com>",
+  "license": "GNU General Public License v3.0",
+  "private": false,
+  "dependencies": {
+    "jquery": "^3.4.1"
+  }
+}
