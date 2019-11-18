@@ -1,8 +1,53 @@
 body{
     color: white;
-    background: #F00;
+    background: #666;
+}
+
+* {
+    margin: 0;
+    padding: 0;
 }
 
 .off{
     display: none;
+}
+
+// Players
+
+.game_wrapper{
+    padding-top: 200px;
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.players_wrapper {
+    position: relative;
+    width: 320px;
+    height: 200px;
+
+    .player {
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        border: solid 1px #000;
+        font-size: 30px;
+        line-height: 40px;
+        text-align: center;
+        border-radius: 50%;
+
+        &.human {
+            background-color: #0F0;
+        }
+
+        &.current {
+            background-color: #44e2ee;
+        }
+
+        &.eliminated {
+            background-color: #222;
+        }
+    }
 }
