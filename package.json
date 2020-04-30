@@ -8,6 +8,6 @@
   "license": "GNU General Public License v3.0",
   "private": false,
   "dependencies": {
-    "jquery": "^3.4.1"
+    "jquery": "^3.5.0"
   }
 }
